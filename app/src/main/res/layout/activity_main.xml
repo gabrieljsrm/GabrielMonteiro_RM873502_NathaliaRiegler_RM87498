@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/NomePersonagem"
+        android:text="Growlithe!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084"
+        style="@style/titulo_pag1" />
+
+    <ImageView
+        android:id="@+id/FotoPersonagem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NomePersonagem"
+        app:layout_constraintVertical_bias="0.054"
+        app:srcCompat="@drawable/qwa051zmyku91"
+        style="@style/imagem_pag1" />
+
+    <TextView
+        android:id="@+id/DescricaoPersonagemTitulo"
+        android:text="@string/descricao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FotoPersonagem"
+        app:layout_constraintVertical_bias="0.038"
+        style="@style/titulo_desc_pag1" />
+
+    <TextView
+        android:id="@+id/DescricaoPersonagem"
+        android:text="@string/descricao_comp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DescricaoPersonagemTitulo"
+        app:layout_constraintVertical_bias="0.039"
+        style="@style/desc_pag1" />
+
+    <TextView
+        android:id="@+id/Skills"
+        android:text="@string/habilidades"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DescricaoPersonagem"
+        app:layout_constraintVertical_bias="0.067"
+        style="@style/titulo_hab_pag1" />
+
+    <TextView
+        android:id="@+id/SkillsTexto"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Skills"
+        app:layout_constraintVertical_bias="0.055"
+        style="@style/desc_hab_pag1" />
+
+    <Button
+        android:id="@+id/botaoSkills"
+        android:text="@string/botao_edi_hab"
+        app:layout_constraintBottom_toBottomOf="@+id/SkillsTexto"
+        app:layout_constraintEnd_toEndOf="@+id/SkillsTexto"
+        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintStart_toStartOf="@+id/SkillsTexto"
+        app:layout_constraintTop_toTopOf="@+id/SkillsTexto"
+        app:layout_constraintVertical_bias="0.589"
+        style="@style/btn_edit_pag1" />
+
+    <Button
+        android:id="@+id/BotaoLei"
+        android:text="@string/mudar_cor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SkillsTexto"
+        app:layout_constraintVertical_bias="0.636"
+        style="@style/btn_mudarcor_pag1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

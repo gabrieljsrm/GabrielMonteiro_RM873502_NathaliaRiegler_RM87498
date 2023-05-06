@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><string name="app_name">GabrielMonteiro_RM87350</string>
+    <string name="descricao">Description</string>
+    <string name="descricao_comp">Growlithe has a sensational sense of smell. Once he smells it, he will never forget it,
+        no matter what happens. His sense of smell is so advanced that he even uses it to determine the emotions of living beings around him.</string>
+    <string name="habilidades">Skills:</string>
+    <string name="botao_edi_hab">+ Edit Skills</string>
+    <string name="mudar_cor">Change Color</string>
+    <string name="habilidades_tela2">Skills</string>
+    <string name="btn_habilidades_tela2">Upgrade Skills</string>
+</resources>

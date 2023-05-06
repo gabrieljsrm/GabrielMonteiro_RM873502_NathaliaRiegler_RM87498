@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GabrielMonteiro_RM87350" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="android:background">@color/background</item>
+    </style>
+
+    <style name="Theme.GabrielMonteiro_RM87350" parent="Base.Theme.GabrielMonteiro_RM87350" />
+</resources>

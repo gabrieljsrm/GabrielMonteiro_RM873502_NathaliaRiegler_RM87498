@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GabrielMonteiro_RM87350</string>
+    <string name="descricao">Descrição</string>
+    <string name="descricao_comp">Growlithe tem senso de odor sensacional. Uma vez que ele sentir um cheiro, ele jamais esquecerá, não importa o que aconteça. Seu olfato é tão avançado que ele o usa até para determinar as emoções dos seres vivos ao seu redor.</string>
+    <string name="habilidades">Habilidades:</string>
+    <string name="botao_edi_hab">+ EDITAR HABILIDADES</string>
+    <string name="mudar_cor">Mudar Cor</string>
+    <string name="habilidades_tela2">Habilidades</string>
+    <string name="btn_habilidades_tela2">Atualizar Habilidades</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="btn_atualizar_pag2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+    <style name="titulo_pag2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="switch_pag2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">60dp</item>
+    </style>
+
+    <style name="titulo_pag1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="imagem_pag1">
+        <item name="android:layout_width">209dp</item>
+        <item name="android:layout_height">134dp</item>
+    </style>
+
+    <style name="titulo_desc_pag1">
+        <item name="android:layout_width">88dp</item>
+        <item name="android:layout_height">41dp</item>
+    </style>
+
+    <style name="desc_pag1">
+        <item name="android:layout_width">335dp</item>
+        <item name="android:layout_height">106dp</item>
+    </style>
+
+    <style name="titulo_hab_pag1">
+        <item name="android:layout_width">93dp</item>
+        <item name="android:layout_height">47dp</item>
+    </style>
+
+    <style name="desc_hab_pag1">
+        <item name="android:layout_width">251dp</item>
+        <item name="android:layout_height">104dp</item>
+    </style>
+
+    <style name="btn_edit_pag1">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">69dp</item>
+
+    </style>
+
+    <style name="btn_mudarcor_pag1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+</resources>

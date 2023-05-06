@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#A90001</color> //em cima em baixo
+    <color name="colorOnPrimary2">#000000</color>
+
+    <color name="colorOnPrimary">#F28749</color> //botao
+
+    <color name="background">#F28749</color> //background
+</resources>
