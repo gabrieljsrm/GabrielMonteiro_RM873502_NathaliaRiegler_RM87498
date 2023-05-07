@@ -63,7 +63,7 @@
 
     <TextView
         android:id="@+id/SkillsTexto"
-        android:text="TextView"
+        android:text="> adicione habilidades com o botão"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -85,6 +85,7 @@
     <Button
         android:id="@+id/BotaoLei"
         android:text="@string/mudar_cor"
+        android:onClick="MudarTema"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
